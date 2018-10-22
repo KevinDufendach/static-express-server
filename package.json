@@ -4,7 +4,8 @@
   "description": "Static express server basic structure",
   "main": "web-server/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node web-server/app.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/KevinDufendach/static-express-server/issues"
   },
-  "homepage": "https://github.com/KevinDufendach/static-express-server#readme"
+  "homepage": "https://github.com/KevinDufendach/static-express-server#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
